@@ -60,6 +60,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Hello World");
         other.transform.SetParent(transform);
     }
 
