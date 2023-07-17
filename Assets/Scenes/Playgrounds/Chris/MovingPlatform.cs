@@ -30,7 +30,7 @@ public class MovingPlatform : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         _elapsedTime += Time.deltaTime;
 
@@ -58,14 +58,23 @@ public class MovingPlatform : MonoBehaviour
         _timeToWaypoint = distanceToWaypoint / _speed;
     }
 
+<<<<<<< HEAD
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Hello World");
         other.transform.SetParent(transform);
     }
+=======
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    Debug.Log("Trigger Entered.");
+    //    other.transform.SetParent(transform);
+    //}
+>>>>>>> af8cbb2353dd6ce7e477bc2bf6da4a17584f40cc
 
-    private void OnTriggerExit(Collider other)
-    {
-        other.transform.SetParent(null);
-    }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    Debug.Log("Trigger Exited.");
+    //    other.transform.SetParent(null);
+    //}
 }
