@@ -58,10 +58,10 @@ public class MovingPlatform : MonoBehaviour
         _timeToWaypoint = distanceToWaypoint / _speed;
     }
 
-<<<<<<< HEAD:Assets/Scenes/Playgrounds/Chris/Old code/MovingPlatform.cs
+//<<<<<<< HEAD:Assets/Scenes/Playgrounds/Chris/Old code/MovingPlatform.cs
  
-=======
->>>>>>> 160c99056339f55b70068b8a23ffbb71ae2cc8f8:Assets/Scenes/Playgrounds/Chris/MovingPlatform.cs
+//=======
+//>>>>>>> 160c99056339f55b70068b8a23ffbb71ae2cc8f8:Assets/Scenes/Playgrounds/Chris/MovingPlatform.cs
     //private void OnTriggerEnter(Collider other)
     //{
     //    Debug.Log("Trigger Entered.");
