@@ -125,7 +125,7 @@ public class AnimationAndMovementController : MonoBehaviour
         // Debug.Log("currentMovement: " + currentMovement);
         HandlePlaneMovement();
         HandleRotation();
-        handleAnimation();
+        HandleAnimation();
 
         // HandleJump must be called after handle gravity or we stay at ground as velocity 
         // set back to groundedGravity
@@ -146,7 +146,7 @@ public class AnimationAndMovementController : MonoBehaviour
         HandleJump();
     }
 
-    void handleAnimation()
+    void HandleAnimation()
     {
         if (isPlaneMovementPressed && isRunKeyHeld) {
             // For run animation to be triggered, the isWalking conditional must first be true
