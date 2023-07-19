@@ -221,8 +221,8 @@ Transform:
   m_Children:
   - {fileID: 561109063}
   - {fileID: 1616954315}
-  - {fileID: 1102580758}
   - {fileID: 1925179352}
+  - {fileID: 1102580758}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: But when The Great Flood arrives, she has to leave it all behind.
+  m_text: But when The Great Flood arrived, she had to leave it all behind.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24658fceeb2fdec43ae77386658415ef, type: 2}
   m_sharedMaterial: {fileID: 3814987495846887508, guid: 24658fceeb2fdec43ae77386658415ef, type: 2}
