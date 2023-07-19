@@ -5,6 +5,8 @@ using UnityEngine;
 public class AudioPlayer : MonoBehaviour
 {
 
+   // [SerializeField] bool overrideExisting = false;
+
     void Awake()
     {
         ManageSingleton();
@@ -12,16 +14,26 @@ public class AudioPlayer : MonoBehaviour
 
     void ManageSingleton()
     {
+        //if (overrideExisting)
+        //{
+        //    AudioPlayer prevAudioPlayer = FindObjectOfType<AudioPlayer>();
+        //    if (prevAudioPlayer != null)
+        //    {
+        //        prevAudioPlayer.gameObject.SetActive(false);
+        //        Destroy(prevAudioPlayer.gameObject);
+        //    }
+        //    DontDestroyOnLoad(gameObject);
+        //}
+
         int instanceCount = FindObjectsOfType(GetType()).Length;
-        if (instanceCount > 1) 
+        if (instanceCount > 1)
         {
             gameObject.SetActive(false);
             Destroy(gameObject);
         }
-        else
-        {
+
             DontDestroyOnLoad(gameObject);
-        }
+        
     }
 
     // Start is called before the first frame update

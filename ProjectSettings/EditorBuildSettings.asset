@@ -25,6 +25,12 @@ EditorBuildSettings:
     guid: 717715caaf50dbf4a9719e4bad91a8a0
   - enabled: 1
     path: Assets/Scenes/Game/Main Levels/Level 2.unity
+    guid: f8fcbc48ebe894aceba6ed36f8340935
+  - enabled: 1
+    path: Assets/Scenes/Game/Main Levels/Level 3.unity
+    guid: e6141e9b7a9432e46954d275f94738d4
+  - enabled: 0
+    path: Assets/Scenes/Game/Main Levels/OLD 2.unity
     guid: 202fdcf7ed60a9447bad468a76b68eb1
   - enabled: 1
     path: Assets/Scenes/Game/Outro/Story/Text 1/Text 1.unity
@@ -35,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Outro/Story/Text 3/Text 3.unity
     guid: c14788afac5eea6469a4a8f8c87fca89
+  - enabled: 1
+    path: Assets/Scenes/Game/Outro/Story/Text 4/Text 4.unity
+    guid: bd2454f3a4a0f5d47aecf6b3d6d684fe
   m_configObjects: {}
