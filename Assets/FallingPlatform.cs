@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializeField] float delay = 0f;
-float timePassed;
 
 public class FallingPlatform : MonoBehaviour
 {
+    [SerializeField] float delay;
+    float timePassed;
+
     bool isFalling = false;
     float downSpeed = 10;
     //public GameObject Player;
